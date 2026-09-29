@@ -1,0 +1,3 @@
+    events per second: 11455.30
+    total time:                          10.0005s
+    total number of events:              114580

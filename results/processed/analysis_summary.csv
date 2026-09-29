@@ -1,0 +1,7 @@
+Metric,Value
+API VM real time (seconds),0.095
+API Container real time (seconds),0.091
+API difference (percent),-4.21
+Startup mean (seconds),0.647
+Startup minimum (seconds),0.621
+Startup maximum (seconds),0.699
