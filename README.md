@@ -114,7 +114,7 @@ The measured difference for this test was **-4.21%**.
 
 ### Performance Comparison
 
-![Performance Analysis](results/figures/performance_analysis.png)
+![Performance Analysis](./results/figures/performance_analysis.png)
 
 The graph provides a visual comparison of the measured FastAPI response time between the VM and container environments.
 
