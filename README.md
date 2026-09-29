@@ -114,7 +114,7 @@ The measured difference for this test was **-4.21%**.
 
 ### Performance Comparison
 
-![Performance Analysis](./results/figures/performance_analysis.png)
+<img src="https://raw.githubusercontent.com/Vikitha22/CC-Experiment-2/main/results/figures/performance_analysis.png" alt="Performance Analysis - FastAPI Response Time" width="700">
 
 The graph provides a visual comparison of the measured FastAPI response time between the VM and container environments.
 
@@ -136,7 +136,7 @@ Container startup time was measured across three independent runs.
 | Minimum | 0.621 s |
 | Maximum | 0.699 s |
 
-![Startup Time](results/figures/startup_time.png)
+![Startup Time](./results/figures/startup_time.png)
 
 ## Scalability Analysis
 
@@ -148,7 +148,7 @@ The FastAPI application was tested with increasing numbers of concurrent request
 | 20 | 1.513 s |
 | 50 | 3.867 s |
 
-![Scalability](results/figures/scalability.png)
+![Scalability](./results/figures/scalability.png)
 
 The results show how execution time changes as the number of concurrent requests increases.
 
@@ -171,13 +171,13 @@ The results show how execution time changes as the number of concurrent requests
 
 Benchmark execution was partially automated using:
 
-scripts/run_benchmarks.sh
+`scripts/run_benchmarks.sh`
 
 The script runs CPU and memory benchmarks and stores the extracted results.
 
 The analysis was performed using:
 
-scripts/analyze_results.py
+`scripts/analyze_results.py`
 
 The analysis generates summary statistics and performance graphs.
 
